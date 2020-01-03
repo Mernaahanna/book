@@ -1,0 +1,83 @@
+  .inline {
+    color: #3e99d8;
+    display: grid;
+    grid-template-columns: 97% 3%;
+    justify-content: space-between;
+  }
+
+.inline img {
+  width:10%;
+  height: 10%;
+}
+// form Modal in add book
+form label,
+form input {
+  display: block;
+  width: 90%
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+
+.button {
+  background-color: #00BFFF;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+// bookItem
+.app-header {
+  display: block;
+  padding: 30px;
+}
+
+.app-card-list {
+  border: 1px solid #a699993d;
+  display: flex;
+  width: auto;
+  min-height: 75vh;
+  white-space: normal;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media(min-width:768px) {
+    width: auto;
+    white-space: nowrap;
+    margin-top: 0;
+  }
+
+  .card {
+    margin: 60px 30px;
+    display: inline-block;
+
+    .card-body {
+      white-space: normal;
+    }
+
+    .card-header {
+      height: 150px;
+      width: 100%;
+      padding: 15px;
+      width: 100%;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .card-header--title {
+      text-transform: uppercase;
+      margin: 0;
+    }
+  }
+}
