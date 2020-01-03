@@ -5,11 +5,7 @@ import Book from './components/book'
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
         <Book/>
-    //   </header>
-    // </div>
   );
 }
 
